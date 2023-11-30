@@ -1,0 +1,27 @@
+.header{
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
+
+    .header_container{
+        display: flex;
+        margin: o auto;
+        padding-block: 1rem;
+        justify-content: space-between;
+        align-items: center;
+
+        .header_title{
+        color:black;
+        font-size: 32px;
+        }
+        .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1.2rem;
+            .navbar_link{
+            text-decoration: none;
+            }
+        }
+    }
+}
