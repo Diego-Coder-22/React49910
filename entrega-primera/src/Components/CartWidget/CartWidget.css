@@ -1,0 +1,17 @@
+img {
+    width: 2rem;
+    height: 2rem;
+    margin-top:1.7rem;
+
+}
+
+.carrito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paragraph{
+    color: white;
+    font-size: larger;
+}

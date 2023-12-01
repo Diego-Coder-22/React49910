@@ -1,15 +1,15 @@
+
 import './App.css'
-import ListContainer from './Components/ListContainer/ListContainer'
-import Navbar from './Components/Navbar/navbar'
-
+import Navbar from './Components/Navbar/Navbar'
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 function App() {
-
   return (
     <>
-      <Navbar />
-      <ListContainer greeting="Bienvenidos"/>
+    <Navbar/>
+    <ItemListContainer mensaje="Catálogo de Productos"/>
     </>
   )
 }
 
 export default App
+
